@@ -1,0 +1,52 @@
+# Location-Finder
+
+Project Title : Location-Finder
+
+
+Description : This app tracks and displays your real-time location while running in the foreground.
+
+Features : 
+   1) The app tracks the user's location only while the app is in use (foreground), using a ForegroundOnlyLocationService.
+   2) The app requests ACCESS_FINE_LOCATION permission from the user to access location data.
+   3) It checks if permissions are granted and handles requests for them if necessary.
+   4) Location updates received from the ForegroundOnlyLocationService service are logged and displayed in the app’s UI.
+   5) The app provides a button to start or stop location updates (foregroundOnlyLocationButton), which dynamically changes text based on whether location updates are active.
+
+
+Tech Stack :
+
+    Software Used
+       1)Android Studio
+       2)Gradle (Project build system)
+
+    Language
+        1)Kotlin
+        2)XML
+
+    Android Frameworks & Libraries 
+      1)Android SDK
+      2)AppCompatActivity
+      3)ForegroundOnlyLocationService
+      3)BroadcastReceiver
+
+Set Up Instructions :
+      1)Find the app icon on your device's home screen
+      2)Tap the app icon to open it.
+      3)When you launch the app for the first time, it will ask for permission to access your device's location
+      4)Tap Allow to grant the location permission for the app to function properly.
+      5)If you deny the permission, the app will display a message asking you to enable location access in the Settings.
+      6)Once the app is open, you'll see the MainActivity screen with:
+      7)A Button to start/stop location updates.
+      8)A TextView to display location updates as they are received.
+      9)Tap the "Start Location Updates" button.
+      10)The app will request location data from your device and begin displaying it in the TextView.
+      11)Tap the "Stop Location Updates" button to stop tracking your location.
+      12)The app will stop receiving location updates.
+      13)As your device's location changes, the app will continuously update the TextView with your current location (latitude, longitude, etc.).
+
+Screenshot
+    Attached in Teams assignment
+
+
+Author Information :
+    Maria Chris P G
